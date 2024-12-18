@@ -6,13 +6,13 @@ There are three pages: the first contains information about the state of Apple's
 ## How to download and use it in your work?
 Fork the repository. There are two options - launch via Docker and via a local virtual environment.
 ### Dockerfile (install it first)
-sudo docker build -t streamlit-pet
-sudo docker images *(take image_ID)*
-sudo docker run -p 8501:8501 *image_ID*
+sudo docker build -t streamlit-pet /
+sudo docker images *(take image_ID)* /
+sudo docker run -p 8501:8501 *image_ID* /
 ### Venv
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv venv /
+source venv/bin/activate /
+pip install -r requirements.txt /
 
 After you do one of the methods, a link to the local server will appear in the terminal.
 
