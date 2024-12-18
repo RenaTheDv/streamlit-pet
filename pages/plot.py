@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import random
-зш
+
 #Код sidebar'a
 st.sidebar.title('Доступные страницы:')
 st.sidebar.write('__MAIN__ - основная страница с информацией про компанию Apple...')
