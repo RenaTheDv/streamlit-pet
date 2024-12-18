@@ -9,6 +9,7 @@ import io
 st.sidebar.title('Доступные страницы:')
 st.sidebar.write('__MAIN__ - основная страница с информацией про компанию Apple...')
 st.sidebar.write('__TIPS__ - страница с графиком по DataFrame, связанным с исследованием по чаевым...')
+st.sidebar.write('__PLOT__ - страница с возможность загрузить ваш DataFrame и построить по нему графики...')
 
 path = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv'
 tips = pd.read_csv(path)

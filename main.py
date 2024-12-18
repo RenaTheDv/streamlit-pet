@@ -10,6 +10,7 @@ st.set_page_config(page_title='MultiApp')
 st.sidebar.title('Доступные страницы:')
 st.sidebar.write('__MAIN__ - основная страница с информацией про компанию Apple...')
 st.sidebar.write('__TIPS__ - страница с графиком по DataFrame, связанным с исследованием по чаевым...')
+st.sidebar.write('__PLOT__ - страница с возможность загрузить ваш DataFrame и построить по нему графики...')
 #Название сайта
 st.title('Simple App About Quotes :fire:')
 #Описание работы сайта
