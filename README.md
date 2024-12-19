@@ -16,4 +16,4 @@ pip install -r requirements.txt
 
 After you do one of the methods, a link to the local server will appear in the terminal.
 
-# Authors: me and my schiza <3
+# Link to my version: https://renathedv-streamlit-pet-main-ktx1kg.streamlit.app/tips
